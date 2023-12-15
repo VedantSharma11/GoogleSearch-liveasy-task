@@ -30,7 +30,7 @@ const Result = () => {
 
         setSearchResults(responseData.items);
       } catch (error) {
-        console.error('Error fetching data:', error);
+        console.error('Error fetching data:', error.message);
       }
     };
 
